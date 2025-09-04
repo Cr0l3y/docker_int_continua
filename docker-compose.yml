@@ -22,8 +22,8 @@ services:
     depends_on:
       - postgres
     environment:
-    - DB_HOST= postgres
-    - BD_USER= root
-    - DB_PASSOWORD= root
-    - DB_NAME= root
-    - BD_PORT=5432
+        - DB_HOST=postgres
+        - DB_USER=root
+        - DB_PASSWORD=root
+        - DB_NAME=root
+        - DB_PORT=5432
