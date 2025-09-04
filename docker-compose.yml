@@ -21,3 +21,9 @@ services:
       - 8080:8080
     depends_on:
       - postgres
+    environment:
+    - DB_HOST= postgres
+    - BD_USER= root
+    - DB_PASSOWORD= root
+    - DB_NAME= root
+    - BD_PORT=5432
